@@ -1,0 +1,30 @@
+
+
+.Card{
+    background-color: #f9f9f9;padding: 30px;display: block;margin: 40px;
+}
+.CardTitle{
+  font-weight: bold;
+}
+.CardText{
+  color: #b2b1b6;
+}
+.ligne{
+  border-top: solid 3px #f0f0f0;margin-bottom: 20px;
+}
+.CardImg{
+  background-color: #424753;
+  width: 50%;
+  height: 167px;
+  position: relative;
+  top: -50px;
+  left: 48px;
+  box-shadow: 9px 9px 37px 3px rgb(0 0 0 / 20%);
+}
+.Card2{
+  width: 50%;
+}
+.CardInfo{
+  display: flex;
+  justify-content: space-between;
+}

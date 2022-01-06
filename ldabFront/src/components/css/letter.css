@@ -1,0 +1,45 @@
+
+.titleLetter1{
+    color: #a4a5a9;font-weight: bold;
+    margin-top: 70px;
+}
+.titleLetter2{
+    font-size: 40px;
+    margin: 15px 0px 15px 0px;
+}
+.letterContent{
+    color: #a4a5a9;
+    padding: 60px;
+}
+.Container{
+  display:flex;
+  justify-content: space-evenly;
+}
+.diagonale2 {
+  position: relative;
+  height: 250px;
+  width: 48%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: flex-end; */
+  /* margin-left: 80px; */
+  /* margin-top: 206px; */
+  transform: translate(143px, 142px);
+}
+
+.diagonale2::before,
+.diagonale2::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 0.5px; /* cross thickness */
+    background-color: black;
+}
+
+.diagonale2::before {
+    transform: rotate(45deg);
+}
+
+.diagonale2::after {
+    transform: rotate(-45deg);
+}

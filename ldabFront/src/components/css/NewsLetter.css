@@ -1,0 +1,29 @@
+
+.titleNewsLetter2{
+    color: #a4a5a9;
+    margin-top: 10px;
+}
+.titleNewsLetter1{
+    font-size: 40px;
+}
+.NewsLetterContainer{
+  background-color: rgb(249, 249, 249);
+  padding: 8%;
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.NewsLetterSearch{
+  margin: auto;
+  box-shadow: 16px 16px 41px 1px rgb(0 0 0 / 20%);
+}
+.afterNews{
+  display: flex;
+  padding: 70px;
+}
+.afterNewsText{
+  padding: 40px;
+}
+.afterNewsbtns{
+  margin: 40px 10px 10px 0px;
+}
